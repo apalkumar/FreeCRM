@@ -1,0 +1,16 @@
+
+public class InterfaceCheckers implements DefaultInterface{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Sleeping...");
+
+	}
+
+	@Override
+	public void sleep() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

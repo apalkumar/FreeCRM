@@ -1,0 +1,35 @@
+package AllureReporting.AllureReporting;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+public class testNG {
+	
+	WebDriver driver;
+	
+	@BeforeClass
+	public void setup() {
+		
+	}
+	
+	
+	@Test(priority=1)
+	public void logopresence() {
+		
+	}
+
+	
+	@Test(priority=2)
+	public void loginTest() {
+		
+	}
+
+	
+	@Test(priority=3)
+	public void registrationTest() {
+		
+	}
+
+	
+}

@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Iterator;
+
+public class reverseArraylist {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<String> strArr = new ArrayList<String>(Arrays.asList("Anil","Singh","Gwalior","MAthura"));
+		System.out.println("Before Reversing");
+		Iterator i2 = strArr.iterator();
+		while(i2.hasNext()) {
+			System.out.println(i2.next());
+			System.out.println();
+		}
+		Collections.reverse(strArr);
+		Iterator i1 = strArr.iterator();
+		while(i1.hasNext()) {
+			System.out.println(i1.next());
+			System.out.println();
+		}
+
+	}
+
+}

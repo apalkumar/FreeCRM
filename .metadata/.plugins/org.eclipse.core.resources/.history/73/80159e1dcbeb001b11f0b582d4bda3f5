@@ -1,0 +1,15 @@
+
+public class readonlyclass {
+	
+	private String collage = "AKG";
+
+	public String getcolleage() {
+		return collage;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,23 @@
+
+public class readonlyclass {
+	
+//	private String collage = "AKG";
+	private String collage;
+
+//	public String getcolleage() {
+//		return collage;
+//	}
+	
+	public void setCollege(String college) {
+		this.collage = colleage;
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		readonlyclass eoc = new readonlyclass();
+		System.out.println(eoc.getcolleage());
+	}
+
+}

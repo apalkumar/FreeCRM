@@ -1,0 +1,15 @@
+
+public class TocheckConstructor {
+	
+	protected TocheckConstructor(){
+		System.out.println("Hello One");
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		TocheckConstructor sp = new TocheckConstructor();
+
+	}
+
+}

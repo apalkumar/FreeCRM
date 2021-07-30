@@ -1,0 +1,34 @@
+package com.crm.qa.testcases;
+
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+
+import com.crm.qa.base.TestBase;
+import com.crm.qa.pages.HomePage;
+import com.crm.qa.pages.LoginPage;
+
+public class ContactsPageTest extends TestBase{
+	
+	LoginPage loginpage;
+	HomePage homePage;
+	ContactsPageTest contactsPage;
+	
+
+	ContactsPageTest() {
+		super();
+	}
+	
+	@BeforeMethod
+	public void setUp() {
+		initialization();
+		contactsPage = new ContactsPageTest();	
+//		loginpage.clickandselectCountry();
+	}
+
+	
+	
+	@AfterMethod
+	public void teardown() {
+		driver.quit();
+	}
+}

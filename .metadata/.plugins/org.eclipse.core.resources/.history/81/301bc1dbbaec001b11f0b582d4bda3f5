@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+public class array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stubs
+		String strArray[] = new String[10];
+		ArrayList<String> AL = new ArrayList<String>();
+		AL.add("New");
+		AL.add(2, Very New);
+		
+
+	}
+
+}

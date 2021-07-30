@@ -1,0 +1,39 @@
+package com.qa.crm.util;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+import com.crm.qa.base.TestBase;
+
+public class TestUtil extends TestBase{
+
+	public static long PAGE_LOAD_TIMEOUT = 50;
+	public static long IMPLICIT_WAIT = 10;
+	public static String TESTDATA_SHEET_PATH = null;
+	static Workbook book;
+	
+//	public void switchToFrame() {
+//		driver.switchTo().frame(0)
+//	}
+	
+	
+	public static Object[][] getTestData(String sheetname) throws EncryptedDocumentException, IOException
+	{
+		FileInputStream file = null;
+		try {
+			file = new FileInputStream(TESTDATA_SHEET_PATH);
+		}catch(FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		try {
+			book = WorkbookFactory.create(file);
+		}catch(InvalidFormatException e) {
+			e.printStackTrace();
+		}
+	}
+		
+	}

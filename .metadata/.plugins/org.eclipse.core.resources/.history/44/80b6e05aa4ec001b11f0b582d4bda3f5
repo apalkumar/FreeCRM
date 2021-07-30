@@ -1,0 +1,21 @@
+
+public class typesofObjctcreation {
+
+	void add() {
+		System.out.println("Address");
+	}
+	
+	
+	public static void main(String[] args) throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+		
+		typesofObjctcreation obj = new typesofObjctcreation();
+		
+		typesofObjctcreation obj1 = (typesofObjctcreation)obj.clone();
+		
+		obj.add();
+		obj1.add();
+	
+	}
+
+}

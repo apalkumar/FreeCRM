@@ -1,0 +1,196 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 3, Errors: 0, Skipped: 12, Time elapsed: 1,811.944 s <<< FAILURE! - in TestSuite
+setUp(com.crm.qa.testcases.ContactsPageTest)  Time elapsed: 607.35 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3IQAPAE', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00412DB3+2502067]
+	Ordinal0 [0x003AC5B1+2082225]
+	Ordinal0 [0x002B2498+1057944]
+	Ordinal0 [0x002A4D2F+1002799]
+	Ordinal0 [0x002A3D69+998761]
+	Ordinal0 [0x002A4026+999462]
+	Ordinal0 [0x002A3915+997653]
+	Ordinal0 [0x002AE534+1041716]
+	Ordinal0 [0x002A38D1+997585]
+	Ordinal0 [0x002A47F6+1001462]
+	Ordinal0 [0x002A3D69+998761]
+	Ordinal0 [0x002A4026+999462]
+	Ordinal0 [0x002A3915+997653]
+	Ordinal0 [0x002AC5AA+1033642]
+	Ordinal0 [0x002A38D1+997585]
+	Ordinal0 [0x002A47F6+1001462]
+	Ordinal0 [0x002A3D69+998761]
+	Ordinal0 [0x002A4026+999462]
+	Ordinal0 [0x002A3915+997653]
+	Ordinal0 [0x002AA459+1025113]
+	Ordinal0 [0x002A38D1+997585]
+	Ordinal0 [0x002A47F6+1001462]
+	Ordinal0 [0x002A3D69+998761]
+	Ordinal0 [0x002A4026+999462]
+	Ordinal0 [0x002A3915+997653]
+	Ordinal0 [0x002A977C+1021820]
+	Ordinal0 [0x002A38D1+997585]
+	Ordinal0 [0x002A47F6+1001462]
+	Ordinal0 [0x002A3D69+998761]
+	Ordinal0 [0x002A4026+999462]
+	Ordinal0 [0x002A3915+997653]
+	Ordinal0 [0x0029F42D+980013]
+	Ordinal0 [0x002A38D1+997585]
+	Ordinal0 [0x002A3670+996976]
+	Ordinal0 [0x002A3409+996361]
+	Ordinal0 [0x002B36A0+1062560]
+	Ordinal0 [0x002FAA59+1354329]
+	Ordinal0 [0x002F967A+1349242]
+	Ordinal0 [0x002F5BEB+1334251]
+	Ordinal0 [0x002D2174+1188212]
+	Ordinal0 [0x002D3009+1191945]
+	GetHandleVerifier [0x0058EC5C+1511084]
+	GetHandleVerifier [0x00638522+2205554]
+	GetHandleVerifier [0x00493393+480739]
+	GetHandleVerifier [0x00492579+477129]
+	Ordinal0 [0x003B1E5D+2104925]
+	Ordinal0 [0x003B63F8+2122744]
+	Ordinal0 [0x003B6537+2123063]
+	Ordinal0 [0x003BEE53+2158163]
+	BaseThreadInitThunk [0x74E16359+25]
+	RtlGetAppContainerNamedObjectPath [0x773A87A4+228]
+	RtlGetAppContainerNamedObjectPath [0x773A8774+180]
+
+	at com.crm.qa.testcases.ContactsPageTest.setUp(ContactsPageTest.java:32)
+
+setup(com.crm.qa.testcases.HomePageTest)  Time elapsed: 602.02 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3IQAPAE', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00412DB3+2502067]
+	Ordinal0 [0x003AC5B1+2082225]
+	Ordinal0 [0x002B2498+1057944]
+	Ordinal0 [0x002A4D2F+1002799]
+	Ordinal0 [0x002A3D69+998761]
+	Ordinal0 [0x002A4026+999462]
+	Ordinal0 [0x002A3915+997653]
+	Ordinal0 [0x002AE534+1041716]
+	Ordinal0 [0x002A38D1+997585]
+	Ordinal0 [0x002A47F6+1001462]
+	Ordinal0 [0x002A3D69+998761]
+	Ordinal0 [0x002A4026+999462]
+	Ordinal0 [0x002A3915+997653]
+	Ordinal0 [0x002AC5AA+1033642]
+	Ordinal0 [0x002A38D1+997585]
+	Ordinal0 [0x002A47F6+1001462]
+	Ordinal0 [0x002A3D69+998761]
+	Ordinal0 [0x002A4026+999462]
+	Ordinal0 [0x002A3915+997653]
+	Ordinal0 [0x002AA459+1025113]
+	Ordinal0 [0x002A38D1+997585]
+	Ordinal0 [0x002A47F6+1001462]
+	Ordinal0 [0x002A3D69+998761]
+	Ordinal0 [0x002A4026+999462]
+	Ordinal0 [0x002A3915+997653]
+	Ordinal0 [0x002A977C+1021820]
+	Ordinal0 [0x002A38D1+997585]
+	Ordinal0 [0x002A47F6+1001462]
+	Ordinal0 [0x002A3D69+998761]
+	Ordinal0 [0x002A4026+999462]
+	Ordinal0 [0x002A3915+997653]
+	Ordinal0 [0x0029F42D+980013]
+	Ordinal0 [0x002A38D1+997585]
+	Ordinal0 [0x002A3670+996976]
+	Ordinal0 [0x002A3409+996361]
+	Ordinal0 [0x002B36A0+1062560]
+	Ordinal0 [0x002FAA59+1354329]
+	Ordinal0 [0x002F967A+1349242]
+	Ordinal0 [0x002F5BEB+1334251]
+	Ordinal0 [0x002D2174+1188212]
+	Ordinal0 [0x002D3009+1191945]
+	GetHandleVerifier [0x0058EC5C+1511084]
+	GetHandleVerifier [0x00638522+2205554]
+	GetHandleVerifier [0x00493393+480739]
+	GetHandleVerifier [0x00492579+477129]
+	Ordinal0 [0x003B1E5D+2104925]
+	Ordinal0 [0x003B63F8+2122744]
+	Ordinal0 [0x003B6537+2123063]
+	Ordinal0 [0x003BEE53+2158163]
+	BaseThreadInitThunk [0x74E16359+25]
+	RtlGetAppContainerNamedObjectPath [0x773A87A4+228]
+	RtlGetAppContainerNamedObjectPath [0x773A8774+180]
+
+	at com.crm.qa.testcases.HomePageTest.setup(HomePageTest.java:23)
+
+setUp(com.crm.qa.testcases.LoginPageTest)  Time elapsed: 602.186 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=92.0.4515.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3IQAPAE', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00412DB3+2502067]
+	Ordinal0 [0x003AC5B1+2082225]
+	Ordinal0 [0x002B2498+1057944]
+	Ordinal0 [0x002A4D2F+1002799]
+	Ordinal0 [0x002A3D69+998761]
+	Ordinal0 [0x002A4026+999462]
+	Ordinal0 [0x002A3915+997653]
+	Ordinal0 [0x002AE534+1041716]
+	Ordinal0 [0x002A38D1+997585]
+	Ordinal0 [0x002A47F6+1001462]
+	Ordinal0 [0x002A3D69+998761]
+	Ordinal0 [0x002A4026+999462]
+	Ordinal0 [0x002A3915+997653]
+	Ordinal0 [0x002AC5AA+1033642]
+	Ordinal0 [0x002A38D1+997585]
+	Ordinal0 [0x002A47F6+1001462]
+	Ordinal0 [0x002A3D69+998761]
+	Ordinal0 [0x002A4026+999462]
+	Ordinal0 [0x002A3915+997653]
+	Ordinal0 [0x002AA459+1025113]
+	Ordinal0 [0x002A38D1+997585]
+	Ordinal0 [0x002A47F6+1001462]
+	Ordinal0 [0x002A3D69+998761]
+	Ordinal0 [0x002A4026+999462]
+	Ordinal0 [0x002A3915+997653]
+	Ordinal0 [0x002A977C+1021820]
+	Ordinal0 [0x002A38D1+997585]
+	Ordinal0 [0x002A47F6+1001462]
+	Ordinal0 [0x002A3D69+998761]
+	Ordinal0 [0x002A4026+999462]
+	Ordinal0 [0x002A3915+997653]
+	Ordinal0 [0x0029F42D+980013]
+	Ordinal0 [0x002A38D1+997585]
+	Ordinal0 [0x002A3670+996976]
+	Ordinal0 [0x002A3409+996361]
+	Ordinal0 [0x002B36A0+1062560]
+	Ordinal0 [0x002FAA59+1354329]
+	Ordinal0 [0x002F967A+1349242]
+	Ordinal0 [0x002F5BEB+1334251]
+	Ordinal0 [0x002D2174+1188212]
+	Ordinal0 [0x002D3009+1191945]
+	GetHandleVerifier [0x0058EC5C+1511084]
+	GetHandleVerifier [0x00638522+2205554]
+	GetHandleVerifier [0x00493393+480739]
+	GetHandleVerifier [0x00492579+477129]
+	Ordinal0 [0x003B1E5D+2104925]
+	Ordinal0 [0x003B63F8+2122744]
+	Ordinal0 [0x003B6537+2123063]
+	Ordinal0 [0x003BEE53+2158163]
+	BaseThreadInitThunk [0x74E16359+25]
+	RtlGetAppContainerNamedObjectPath [0x773A87A4+228]
+	RtlGetAppContainerNamedObjectPath [0x773A8774+180]
+
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:23)
+

@@ -1,0 +1,46 @@
+package com.crm.qa.testcases;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.crm.qa.base.TestBase;
+import com.crm.qa.pages.HomePage;
+import com.crm.qa.pages.LoginPage;
+
+public class ContactsPageTest extends TestBase{
+	
+	LoginPage loginpage;
+	HomePage homePage;
+	ContactsPage contactsPage;
+	
+
+	ContactsPageTest() {
+		super();
+	}
+	
+	@BeforeMethod
+	public void setUp() {
+		initialization();
+		contactsPage = new ContactsPageTest();	
+//		loginpage.clickandselectCountry();
+	}
+	
+	@Test
+	public void verifycontactpagetitle() {
+		String homepagetitle = homepage.validatehomePageTitle();
+		Assert.assertEquals(homepagetitle, str);
+		homepage.clickontasksslink();
+//		boolean sFlag = homepage.verifydealpagelogo();
+//		Assert.assertEquals(sFlag, true);
+//		homepage.selectCategory();
+	}
+
+	
+	
+	@AfterMethod
+	public void teardown() {
+		driver.quit();
+	}
+}

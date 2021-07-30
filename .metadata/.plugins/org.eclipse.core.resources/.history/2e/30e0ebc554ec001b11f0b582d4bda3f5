@@ -1,0 +1,14 @@
+
+public class checkString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1 = "Sharma is a good player";  
+		6.	        String s2 = new String("Sharma is a good player");  
+		7.	        s2 = s2.intern();  
+		8.	        System.out.println(s1 ==s2);  
+
+
+	}
+
+}

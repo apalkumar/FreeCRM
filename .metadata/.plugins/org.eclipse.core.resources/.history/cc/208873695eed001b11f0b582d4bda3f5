@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+
+public class reverseString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//  First Approach
+		String str = "Anil";
+//		System.out.println(str.length());
+		char[] strchr = str.toCharArray();
+		
+		for(int i=strchr.length-1; i>=0;i--) {
+			System.out.println(strchr[i]);
+		}
+// Second Approach
+		String str1 = "Paal";
+		char[] str1new = str1.toCharArray();
+		ArrayList<Character> list = new ArrayList<Character>();
+		Collections.reverse(list);
+		Iterator< >
+	}
+
+}

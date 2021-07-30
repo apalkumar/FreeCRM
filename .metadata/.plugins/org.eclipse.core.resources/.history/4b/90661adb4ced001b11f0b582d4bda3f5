@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class convertandaddelementinarraylist {
+	
+	public static void main(String[] args) {
+//		Convert Array to Array List
+		String[] strArray = {"Anil","Neeraj","Bro","Gwalior"};
+		ArrayList<String> strArrlist = new ArrayList<String>(Arrays.asList(strArray));
+		System.out.println(strArrlist);
+//		Adding element in arraylist
+		strArrlist.add("New");
+		strArrlist.add("Old");
+		System.out.println(strArrlist);
+				
+		}
+	}
+
+

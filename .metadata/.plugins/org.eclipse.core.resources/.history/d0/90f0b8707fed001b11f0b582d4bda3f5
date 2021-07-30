@@ -1,0 +1,26 @@
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class examplelinkedlist {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedList<String> list=new LinkedList<String>();
+		
+		list.add("Anil");
+		 list.add("Steve");
+	     list.add("Carl");
+	     list.addLast("Paal");
+	     list.add("Raj");
+	     list.addFirst("Rick");
+		System.out.println(list);
+		System.out.println(list.get(0));
+
+		Iterator<String> iterator=list.iterator();
+	     while(iterator.hasNext()){
+	       System.out.println(iterator.next());
+	     }
+
+	}
+
+}

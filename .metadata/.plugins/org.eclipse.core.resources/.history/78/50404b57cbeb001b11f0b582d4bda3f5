@@ -1,0 +1,16 @@
+
+public class readonlyclass {
+	
+	public String collage = "AKG";
+
+	public String getcolleage() {
+		return collage;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		readonlyclass eoc = new readonlyclass();
+		System.out.println(eoc.getcolleage());
+	}
+
+}

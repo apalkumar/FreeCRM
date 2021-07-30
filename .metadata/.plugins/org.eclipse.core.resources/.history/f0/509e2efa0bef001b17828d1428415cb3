@@ -1,0 +1,14 @@
+
+public class blockstatic {
+	
+	
+	static {
+		System.out.println("With Object");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

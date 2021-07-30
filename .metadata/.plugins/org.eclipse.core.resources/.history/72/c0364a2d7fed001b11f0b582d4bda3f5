@@ -1,0 +1,16 @@
+import java.util.LinkedList;
+
+public class examplelinkedlist {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedList<String> list=new LinkedList<String>();
+		list.addLast("Paal");
+		list.add("Anil");
+		System.out.println(list);
+		System.out.println(list.get(0));
+
+
+	}
+
+}

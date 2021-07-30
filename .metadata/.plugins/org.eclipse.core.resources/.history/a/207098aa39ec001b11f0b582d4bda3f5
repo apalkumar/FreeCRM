@@ -1,0 +1,20 @@
+import tocheckinterfaceimplementation.interfacecheck;
+
+public class InterfaceCheckers implements DefaultInterface,interfacecheck{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		InterfaceCheckers checker = new InterfaceCheckers();
+        checker.run();
+        checker.sleep();
+
+	}
+
+	
+	public void sleep() {
+		// TODO Auto-generated method stub
+		System.out.println("Sleeping...");
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package tocheckinterfaceimplementation;
+
+public interface interfacecheck {
+
+}

@@ -1,0 +1,17 @@
+
+public class compareTwoInteger {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Integer num1 = 100;
+		Integer num2 = 100;
+		
+		if(num1==num2) {
+			System.out.println("Both Are Equal");
+		}else {
+			System.out.println("Both Are Not Equal");
+		}
+
+	}
+
+}

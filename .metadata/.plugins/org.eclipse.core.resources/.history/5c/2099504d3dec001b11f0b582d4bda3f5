@@ -1,0 +1,8 @@
+package tocheckinterfaceimplementation;
+
+private interface interfacecheck {
+	void sleeping();
+    default void runing() {
+        System.out.println("I'm running now!");
+    }
+}

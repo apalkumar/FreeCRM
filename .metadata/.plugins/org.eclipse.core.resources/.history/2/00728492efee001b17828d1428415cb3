@@ -1,0 +1,10 @@
+
+//Through recurssion we can add number from 1 to 10 without loop
+public class Recurrsion2 {
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+}
